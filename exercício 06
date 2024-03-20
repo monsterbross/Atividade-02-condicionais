@@ -1,0 +1,9 @@
+print("O computador verificará se o número inserido é ímpar ou par: \nP-par. \nI-Ímpar.")
+x = int(input("Digite um número: "))
+y = x%2
+if y == 0:
+    x = str("P")
+    print(f"{x}")
+else:
+    x = str("I")
+    print(f"{x}")
