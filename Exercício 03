@@ -1,0 +1,7 @@
+temp = float(input("Insíra a temperatura do dia: "))
+if temp > 25:
+    print("Está calor.")
+elif temp >= 15 and temp <= 25:
+    print("A temperatura está agradável.")
+else: 
+    print("Está frio. ")
