@@ -1,0 +1,7 @@
+#Cálculo de aposentadoria
+x  = int(input("Insíra a sua idade em anos: "))
+y = int(input("Insíra o seu tempo de serviço em anos: "))
+if x >= 65 or y >= 30 or (x >= 60 and y >= 25):
+    print("O trbalhador pode se aposentar.")
+else:
+    print("O trabalhador não pode se aposentar.")
