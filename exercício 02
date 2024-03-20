@@ -1,0 +1,14 @@
+print("Dado ax²+bx+c=0")
+a = float(input("Defina a: "))
+b = float(input("Defina b: "))
+c = float(input("Defina c: "))
+if a != 0:
+    x = (b**2)-(4*a*c)
+    if x > 0:
+        print("Existem 2 raizes reais diferentes.")
+    elif x == 0 :
+        print("Existem duas raizes reais iguais.")
+    else:
+        print("Existem 2 raizes imaginárias conjugadas.")
+else:
+    print("ERRO")
