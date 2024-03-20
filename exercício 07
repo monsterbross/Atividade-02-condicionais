@@ -1,0 +1,7 @@
+print("montanha russa Hopi Hari (questionário):")
+idade = int(input("Insíra a sua idade: "))
+peso = int(input("Insíra o seu peso: "))
+if peso <= 120 and idade > 15:
+    print("O usuário está liberado para andar na montanha russa.")
+else:
+    print("O usuário está proibido de andar na montanha russa.")
