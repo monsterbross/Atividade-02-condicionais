@@ -1,0 +1,19 @@
+#Calculo de média do estudante
+print("notas valem 10")
+nota1 = float(input("Insíra a sua primeira nota: "))
+nota2 = float(input("Insíra a sua segunda nota: "))
+media = (nota1 + nota2)/2
+print("PUCPR-1 \nUNICAMP-2")
+facul = int(input("selecione uma faculdade: "))
+if facul == 1:
+    if media >= 7.0:
+        print("aprovado.")
+    elif media >= 4.0 and media < 7.0:
+        print("Em exame.")
+    else:
+        print("Reprovado.")
+elif facul == 2:
+    if media >= 5:
+        print("Aprovado.")
+    else:
+        print("Em exame. ")
