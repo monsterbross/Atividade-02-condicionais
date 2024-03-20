@@ -1,0 +1,11 @@
+print("1 está para masculino. \n2 está para feminino.")
+sexo = int(input("Insíra o seu sexo: "))
+altura = float(input("Insíra a sua altura: "))
+if sexo == 1:
+    x = (72.7*altura)-58
+    print(f"o seu peso ideal é {x} quilos.")
+elif sexo == 2:
+    x = (62.1*altura)-44.7
+    print(f"o seu peso ideal é {x} quilos.")
+else:
+    print("insíra seu sexo novamente.")
